@@ -10,7 +10,7 @@ const todoSlice = createSlice({
     name: 'todo',
     initialState: {
         isLoading: false,
-        data: null,
+        data: [],
         error: false
     },
     // [extraReducres] used for asynchronous request.
